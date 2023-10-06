@@ -14,48 +14,77 @@
 }
 
 html {
-  font-family: "Lucida Sans", sans-serif;
+  font-family: "poopins", sans-serif;
+}
+
+body {
+  background-color: #2d033b;
 }
 
 .header {
-  background-color: #9933cc;
-  color: #ffffff;
-  padding: 15px;
+  background-color: #810ca8;
+  font-size: 12px;
+  font-weight: 700;
+  font-style: italic;
+  color: #f2f2f2;
+  padding: 2px;
+  padding-left: 25px;
+  margin: -8px;
+}
+
+.header span {
+  color: #2d033b;
 }
 
 .menu ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
+  margin: 15px;
 }
 
 .menu li {
-  padding: 8px;
+  padding: 5px;
+  padding-left: 20px;
   margin-bottom: 7px;
-  background-color: #33b5e5;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-color: #810ca8;
+  color: #f2f2f2;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.24);
+  border-radius: 15px;
 }
 
 .menu li:hover {
-  background-color: #0099cc;
+  background-color: #2d033b;
+}
+
+.hero h1 {
+  color: #f2f2f2;
+}
+
+.hero p {
+  color: #f2f2f2;
 }
 
 .aside {
   background-color: #33b5e5;
-  padding: 15px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.footer {
-  background-color: #0099cc;
-  color: #ffffff;
+  padding: 2.5px;
+  margin: 7px;
+  color: #2d033b;
   text-align: center;
   font-size: 12px;
-  padding: 15px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.12), 0 3px 4px rgba(0, 0, 0, 0.24);
+}
+
+/* footer */
+footer {
+  background-color: #33b5e5;
+  text-align: center;
+  padding: 2px;
+  margin: -8px;
+}
+
+footer .credit p {
+  color: #2d033b;
+  font-size: 0.8rem;
 }
 
 /* For mobile phones: */
